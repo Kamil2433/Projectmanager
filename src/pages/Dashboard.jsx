@@ -8,6 +8,10 @@ import ProjectsGrid from '../component/projectgrid/Projectgrid';
 
 const Dashboard = () => {
 
+  const navigate = useNavigate();
+
+
+
         const [openmodal,setopenmodal]=useState(false);
         const [name, setName] = useState('');
         const [description, setDescription] = useState('');
@@ -69,7 +73,15 @@ const Dashboard = () => {
 
 
   useEffect(() => {
-    fetchProjects();
+
+     const token = localStorage.getItem('auth-token');
+
+     if(token){
+
+       fetchProjects();
+     }else{
+      navigate('./signin')
+     }
   }, [])
   
 
