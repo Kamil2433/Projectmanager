@@ -1,5 +1,6 @@
 deployed link- https://kamil2433.github.io/Projectmanager/
-Repository link- 
+
+
 backend server- https://projectmanager-9kdh.onrender.com
 
 testaccount 1(admin)-
@@ -20,8 +21,6 @@ dashboard-
 Login page- 
 
 <img width="860" alt="image" src="https://github.com/user-attachments/assets/865d5556-afdb-4643-a3a2-741b58ce87b2">
-
-
 
 
 Project description-
