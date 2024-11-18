@@ -22,6 +22,9 @@ Login page-
 
 <img width="860" alt="image" src="https://github.com/user-attachments/assets/865d5556-afdb-4643-a3a2-741b58ce87b2">
 
+Demo Video-
+
+https://youtu.be/NS5dkaf44yw
 
 Project description-
 I developed a robust Project Manager application designed to simplify task management and project tracking, featuring modern drag-and-drop functionality for seamless task organization. The application utilizes JWT authentication to ensure secure user sessions and protect sensitive data. Built on a Node.js backend and a frontend designed with meticulous attention to layout, typography, and theming, the platform offers an intuitive and visually cohesive experience for users. The drag-and-drop feature empowers users to dynamically update task statuses within a project grid, ensuring real-time task flow management without compromising usability or performance.
