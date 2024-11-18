@@ -1,0 +1,100 @@
+/* Navbar Container */
+.navbar-container {
+    background-color: #ffffff !important;
+    padding: 1rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Logo Styling */
+.navbar-logo .logo-image {
+    height: 50px;
+    width: auto;
+    cursor: pointer;
+}
+
+/* Navbar Items */
+.navbar-items {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+/* Notification Icon */
+.notification {
+    background-color: #333;
+    border-radius: 50%;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.notification-icon {
+    color: #feac0e;
+    font-size: 1.2rem;
+}
+
+.notification:hover {
+    background-color: #555;
+}
+
+/* Profile Section */
+.profile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+
+
+.profile-username {
+    color: #ffffff;
+    margin-right: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Dropdown Icon */
+.profile-dropdown-icon {
+    width: 0.7rem;
+    height: auto;
+    
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+    position: absolute;
+    top: 3.5rem;
+    right: 0;
+    width: 12rem;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 0.5rem;
+    padding: 0.5rem 0;
+    z-index: 10;
+}
+
+.dropdown-item {
+    padding: 0.7rem 1.5rem;
+    color: #333;
+    text-decoration: none;
+    font-size: 0.9rem;
+    display: block;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dropdown-item:hover {
+    background-color: #f0f0f0;
+    color: #000;
+}
