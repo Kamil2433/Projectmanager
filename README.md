@@ -45,6 +45,7 @@ Frontend-
 2. npm run dev
 
 Backend-
+cd ./backend
 1. npm i
 2. node index.js
 
