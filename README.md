@@ -32,6 +32,13 @@ I developed a robust Project Manager application designed to simplify task manag
 The application employs role-based access control to manage user permissions effectively. Only administrators have privileges to edit or delete projects, while team members can access and interact with projects that include tasks assigned to them. Tasks can be updated through drag-and-drop operations, streamlining team workflows. The backend is highly scalable, making it capable of handling growing teams and complex project data. This scalability ensures that as teams expand, the platform can accommodate increased load without compromising performance or reliability. Overall, the Project Manager delivers a powerful tool for teams to collaborate efficiently, with a focus on secure, responsive, and user-friendly design principles.
 
 
+Error Logging with Winston:
+To enhance application reliability and simplify debugging, I added a custom logError function for comprehensive error logging. The logging system is powered by Winston, configured to handle:
+
+Console Logging with colored output for better readability.
+Daily Log Rotation to maintain organized log files.
+Handling Unhandled Exceptions and Rejections: Automatically logs critical errors, ensuring no issue goes unnoticed.
+
 
 Role based access-
 1. Admin- Admin can create, update, delete all the projects and tasks
